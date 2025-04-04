@@ -52,41 +52,38 @@ pip install -r requirements.txt
 
 ## ⚙️ Run the Agent Workflow
 
-### Using terminal (main.py):
+### 🔁 Option 1: Run Everything from the Dashboard 
 
-```bash
-# Run all agents
-python main.py
-
-# Run specific agent
-python main.py --agent enrich
-```
-
-Agent keys:
-- `scout` → event_scout_agent.py
-- `hunter` → company_hunter_agent.py
-- `enrich` → company_enrichment_agent.py
-- `stakeholder` → stakeholderfinder_agent.py
-- `message` → message_agent.py
-- `scoring` → lead_scoring_agent.py
-
----
-
-## 📊 Launch the Dashboard
+Simply launch the dashboard to access and execute all agents from an interactive UI:
 
 ```bash
 streamlit run dashboard.py
 ```
+The dashboard includes built-in buttons to:
 
-Once launched, the dashboard gives access to:
-- Event explorer
-- Enriched company details
-- Stakeholder discovery
-- Outreach message previews
-- Final lead scoring with filters
+Run any individual agent or the full pipeline
 
----
+View discovered events, enriched companies, stakeholders, outreach messages, and scored leads
+### 🔁 Option 2: Run from the Terminal
+# Run all agents sequentially
+python main.py
 
+# Run a specific agent only
+python main.py --agent enrich
+
+Available agent keys:
+
+scout → event_scout_agent.py
+
+hunter → company_hunter_agent.py
+
+enrich → company_enrichment_agent.py
+
+stakeholder → stakeholderfinder_agent.py
+
+message → message_agent.py
+
+scoring → lead_scoring_agent.py
 ## 🖼️ Dashboard Screenshots
 
 
