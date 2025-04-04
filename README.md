@@ -9,8 +9,7 @@ This project implements an end-to-end **AI agent workflow** to discover, evaluat
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/tedlar-ai-agents.git
-cd tedlar-ai-agents
+git clone https://github.com/HarshitSingh27/Instalily-Harshit
 ```
 
 ### 2. Create a Virtual Environment
@@ -28,7 +27,11 @@ source .venv/bin/activate
 python -m venv .venv
 .venv\Scripts\activate
 ```
-
+#### .env file template
+```
+OPENAI_API_KEY=your_openai_key
+PERPLEXITY_API_KEY=your_perplexity_key
+```
 ---
 
 ## 📥 Install or Upgrade Requirements
