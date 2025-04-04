@@ -112,7 +112,6 @@ with tab1:
         "company_name", "event_name", "qualification_summary", "industry_fit", 
         "strategic_relevance", "lead_score"
     ]
-    st.markdown("### 🏢 Click on a company to view all decision-makers & messages")
     st.dataframe(unique_companies[display_cols], use_container_width=True)
 
     # Step 2: Interactive preview
@@ -150,7 +149,7 @@ with tab3:
     # Show only these columns
     stakeholder_cols = [
         "company_name", "event_name", 
-        "Decision_Maker", "Email", "LinkedIn"
+        "Decision_Maker", "Title", "Email", "LinkedIn"
     ]
     valid_stakeholder_cols = [col for col in stakeholder_cols if col in df_stakeholders.columns]
     st.dataframe(df_stakeholders[valid_stakeholder_cols], use_container_width=True)
