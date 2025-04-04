@@ -1,0 +1,11 @@
+selenium
+beautifulsoup4
+requests
+streamlit
+pandas
+openai
+tqdm
+python-dotenv
+sentence-transformers
+webdriver-manager
+tenacity
