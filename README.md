@@ -85,6 +85,11 @@ message → message_agent.py
 
 scoring → lead_scoring_agent.py
 ## 🖼️ Dashboard Screenshots
+![Dashboard Landing Page 1](Submission/DashboardLanding1.png)
+
+![Dashboard Landing Page 2](Submission/DashboardLanding2.png)
+
+![Dashboard Landing Page 2](Submission/DashboardLanding2.png)
 
 
 
